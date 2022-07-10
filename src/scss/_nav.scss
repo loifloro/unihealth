@@ -1,0 +1,9 @@
+@import './variables';
+
+.navbar{
+    max-height: 2rem;
+    background: red;
+    color: map-get($green, '100');
+    @include button-text;
+    
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=IBM+Plex+Mono:wght@700&family=Ubuntu:wght@700&display=swap');
+
+$yellow: (
+    "100": #FF9501,
+    "80": #FFB14C,
+    "60": #FFDDB0 
+);
+$green: (
+    "100": #007304,
+    "80": #1b651b,
+    "60": #3a5938 
+);
+$white: (
+    "100": #FEFEFE,
+    "80": #F5F5F4,
+    "60": #F0F0F1 
+);
+$black  : (
+    "100": #303440,
+    "80": #2A2E3A,
+);
+@mixin h1 {
+    font-family: 'Ubuntu', sans-serif;;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.953rem;
+}
+@mixin h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1.563rem;
+}
+@mixin title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 1rem;
+}
+@mixin body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    line-height: normal;
+    font-size: 1rem;
+}
+@mixin button-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+@mixin caption {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+@mixin link-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+
+
